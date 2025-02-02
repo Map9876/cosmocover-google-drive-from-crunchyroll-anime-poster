@@ -43,8 +43,7 @@ for url in urls:
         if ((href.startswith("https://www.cosmocover.com/newsroom/") or 
              href.startswith("https://www.cosmocover.com/de/newsroom/")) and
             not href.endswith("newsroom/") and
-            not href.endswith("newsroom/page/2/") and
-            href.count('/') > 5):
+            not href.endswith("newsroom/page/2/")):
             if href not in existing_links:
                 all_hyperlinks.append(href)
 
