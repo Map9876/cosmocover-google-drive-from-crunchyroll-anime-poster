@@ -40,8 +40,11 @@ for url in urls:
     # 提取符合条件的超链接并添加到列表中，确保保留顺序
     for link in links:
         href = link['href']
-        if (href.startswith("https://www.cosmocover.com/newsroom/") or 
-            href.startswith("https://www.cosmocover.com/de/newsroom/")):
+        if ((href.startswith("https://www.cosmocover.com/newsroom/") or 
+             href.startswith("https://www.cosmocover.com/de/newsroom/")) and
+            not href.endswith("newsroom/") and
+            not href.endswith("newsroom/page/2/") and
+            href.count('/') > 5):
             if href not in existing_links:
                 all_hyperlinks.append(href)
 
@@ -101,7 +104,9 @@ if last_header_idx == -1:
 # 将新链接插入到最后一个###符号之后
 new_content = [f"#### {current_date}\n"]
 for link, drive_link in final_links:
-    new_content.append(f"- [Article Link]({link})\n")
+    # 提取文章标题
+    title = link.strip('/').split('/')[-1].replace('-', ' ')
+    new_content.append(f"- **{title}**\n  - [Article Link]({link})\n")
     if drive_link != 'None':
         new_content.append(f"  - [Drive Link]({drive_link})\n")
 new_content.append("\n")
