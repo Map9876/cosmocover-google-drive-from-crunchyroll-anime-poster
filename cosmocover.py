@@ -99,9 +99,11 @@ if last_header_idx == -1:
     last_header_idx = 0
 
 # 将新链接插入到最后一个###符号之后
-new_content = [f"{current_date}\n"]
+new_content = [f"#### {current_date}\n"]
 for link, drive_link in final_links:
-    new_content.append(f"{link}\n{drive_link}\n")
+    new_content.append(f"- [Article Link]({link})\n")
+    if drive_link != 'None':
+        new_content.append(f"  - [Drive Link]({drive_link})\n")
 new_content.append("\n")
 
 content = content[:last_header_idx + 1] + new_content + content[last_header_idx + 1:]
