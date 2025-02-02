@@ -8,8 +8,9 @@ urls = [
     "https://c.map987.us.kg/https://www.cosmocover.com/de/newsroom-de/"
 ]
 
-# 用于存储所有符合条件的超链接的列表
-all_hyperlinks = []
+# 用于存储US区和DE区符合条件的超链接的列表
+us_hyperlinks = []
+de_hyperlinks = []
 
 # 读取现有的文章链接
 existing_links = set()
@@ -40,33 +41,25 @@ for url in urls:
     # 提取符合条件的超链接并添加到列表中，确保保留顺序
     for link in links:
         href = link['href']
+        # 排除基础链接和分页链接
         if ((href.startswith("https://www.cosmocover.com/newsroom/") or 
              href.startswith("https://www.cosmocover.com/de/newsroom/")) and
-            not href.endswith("newsroom/") and
-            not href.endswith("newsroom/page/2/")):
+            href not in ["https://www.cosmocover.com/newsroom/", "https://www.cosmocover.com/newsroom/page/2/"]):
             if href not in existing_links:
-                all_hyperlinks.append(href)
-
-# 找出新的文章链接
-new_links = all_hyperlinks
-print(all_hyperlinks)
-print("______________ 上面是找出的新的文章链接")
-
-print(existing_links)
-print("______________ 上面是txt已经有的老的文章链接")
-# 如果没有新链接，程序结束
-if not new_links:
-    print("没有新的文章链接。")
-    exit()
+                if href.startswith("https://www.cosmocover.com/newsroom/"):
+                    us_hyperlinks.append(href)
+                else:
+                    de_hyperlinks.append(href)
 
 # 获取当前日期
 current_date = datetime.now().strftime('%Y-%m-%d')
 
 # 用于存储最终符合条件的超链接和网盘链接
-final_links = []
+final_us_links = []
+final_de_links = []
 
 # 检查每个新超链接的网页内容是否包含"crunch"关键词
-for href in new_links:
+for href in us_hyperlinks:
     try:
         link_response = requests.get(href)
         link_content = link_response.text
@@ -78,7 +71,23 @@ for href in new_links:
             # 查找带有"drive.google.com"关键词的链接
             drive_links = [a['href'] for a in link_soup.find_all('a', href=True) if "drive.google.com" in a['href']]
             drive_link = drive_links[0] if drive_links else 'None'
-            final_links.append((href, drive_link))
+            final_us_links.append((href, drive_link))
+    except requests.RequestException as e:
+        print(f"无法请求链接: {href}. 错误: {e}")
+
+for href in de_hyperlinks:
+    try:
+        link_response = requests.get(href)
+        link_content = link_response.text
+
+        # 检查页面内容是否包含"crunch"关键词
+        if "crunch" in link_content.lower():
+            # 解析页面内容
+            link_soup = BeautifulSoup(link_content, 'html.parser')
+            # 查找带有"drive.google.com"关键词的链接
+            drive_links = [a['href'] for a in link_soup.find_all('a', href=True) if "drive.google.com" in a['href']]
+            drive_link = drive_links[0] if drive_links else 'None'
+            final_de_links.append((href, drive_link))
     except requests.RequestException as e:
         print(f"无法请求链接: {href}. 错误: {e}")
 
@@ -101,8 +110,16 @@ if last_header_idx == -1:
     last_header_idx = 0
 
 # 将新链接插入到最后一个###符号之后
-new_content = [f"#### {current_date}\n"]
-for link, drive_link in final_links:
+new_content = [f"#### {current_date} us区:\n"]
+for link, drive_link in final_us_links:
+    # 提取文章标题
+    title = link.strip('/').split('/')[-1].replace('-', ' ')
+    new_content.append(f"- **{title}**\n  - [Article Link]({link})\n")
+    if drive_link != 'None':
+        new_content.append(f"  - [Drive Link]({drive_link})\n")
+
+new_content.append(f"#### {current_date} de区:\n")
+for link, drive_link in final_de_links:
     # 提取文章标题
     title = link.strip('/').split('/')[-1].replace('-', ' ')
     new_content.append(f"- **{title}**\n  - [Article Link]({link})\n")
