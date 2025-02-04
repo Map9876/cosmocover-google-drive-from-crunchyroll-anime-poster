@@ -44,8 +44,7 @@ for url in urls:
         # 排除基础链接和分页链接
         if ((href.startswith("https://www.cosmocover.com/newsroom/") or 
              href.startswith("https://www.cosmocover.com/de/newsroom/")) and
-            href not in ["https://www.cosmocover.com/newsroom/", "https://www.cosmocover.com/newsroom/page/2/"] and
-            href.count('/') > 5):
+            href not in ["https://www.cosmocover.com/newsroom/", "https://www.cosmocover.com/newsroom/page/2/"]):
             if href not in existing_links:
                 if href.startswith("https://www.cosmocover.com/newsroom/"):
                     us_hyperlinks.append(href)
