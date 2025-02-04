@@ -4,8 +4,8 @@ name: Action Practice
 on:
   push:
   schedule:
-    - cron: "0 16 * * *"
-
+    - cron: "0 0,6,12,18 * * *"
+    
 env:
   TZ: Asia/Shanghai
 
