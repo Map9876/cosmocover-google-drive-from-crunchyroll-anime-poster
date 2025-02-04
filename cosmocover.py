@@ -111,7 +111,7 @@ if last_header_idx == -1:
     last_header_idx = 0
 
 # 将新链接插入到最后一个###符号之后
-new_content = [f"### {current_date}\n", "#### us区:\n"]
+new_content = [f"## {current_date}\n", "#### us区:\n"]
 for link, drive_link in final_us_links:
     # 提取文章标题
     title = link.strip('/').split('/')[-1].replace('-', ' ')
