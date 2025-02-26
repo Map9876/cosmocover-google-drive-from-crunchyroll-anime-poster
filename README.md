@@ -1004,6 +1004,17 @@
 - **light up the arq grid disney tron catalyst races towards pc and consoles this summer**
   - [Article Link](https://www.cosmocover.com/newsroom/light-up-the-arq-grid-disney-tron-catalyst-races-towards-pc-and-consoles-this-summer/)
 #### de区:
+## 2025-02-27
+#### us区:
+- **light up the arq grid disney tron catalyst races towards pc and consoles this summer**
+  - [Article Link](https://www.cosmocover.com/newsroom/light-up-the-arq-grid-disney-tron-catalyst-races-towards-pc-and-consoles-this-summer/)
+#### de区:
+- **bringe das arq raster zum leuchten disney tron catalyst rast diesen sommer auf pc und konsolen zu**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/bringe-das-arq-raster-zum-leuchten-disney-tron-catalyst-rast-diesen-sommer-auf-pc-und-konsolen-zu/)
+- **shibatarian kommt veroeffentlicht von crunchyroll**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/shibatarian-kommt-veroeffentlicht-von-crunchyroll/)
+  - [Drive Link](https://drive.google.com/drive/folders/1MkFV4R5ncoD04333PV8p78Afnxs_MmMh?usp=drive_link)
+
 - **bringe das arq raster zum leuchten disney tron catalyst rast diesen sommer auf pc und konsolen zu**
   - [Article Link](https://www.cosmocover.com/de/newsroom/bringe-das-arq-raster-zum-leuchten-disney-tron-catalyst-rast-diesen-sommer-auf-pc-und-konsolen-zu/)
 - **shibatarian kommt veroeffentlicht von crunchyroll**
