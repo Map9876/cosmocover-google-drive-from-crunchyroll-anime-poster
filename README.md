@@ -1029,6 +1029,14 @@
 - **light up the arq grid disney tron catalyst races towards pc and consoles this summer**
   - [Article Link](https://www.cosmocover.com/newsroom/light-up-the-arq-grid-disney-tron-catalyst-races-towards-pc-and-consoles-this-summer/)
 #### de区:
+## 2025-02-28
+#### us区:
+- **light up the arq grid disney tron catalyst races towards pc and consoles this summer**
+  - [Article Link](https://www.cosmocover.com/newsroom/light-up-the-arq-grid-disney-tron-catalyst-races-towards-pc-and-consoles-this-summer/)
+#### de区:
+- **bringe das arq raster zum leuchten disney tron catalyst rast diesen sommer auf pc und konsolen zu**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/bringe-das-arq-raster-zum-leuchten-disney-tron-catalyst-rast-diesen-sommer-auf-pc-und-konsolen-zu/)
+
 - **bringe das arq raster zum leuchten disney tron catalyst rast diesen sommer auf pc und konsolen zu**
   - [Article Link](https://www.cosmocover.com/de/newsroom/bringe-das-arq-raster-zum-leuchten-disney-tron-catalyst-rast-diesen-sommer-auf-pc-und-konsolen-zu/)
 
