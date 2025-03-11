@@ -1383,6 +1383,29 @@
 - **light up the arq grid disney tron catalyst races towards pc and consoles this summer**
   - [Article Link](https://www.cosmocover.com/newsroom/light-up-the-arq-grid-disney-tron-catalyst-races-towards-pc-and-consoles-this-summer/)
 #### de区:
+## 2025-03-11
+#### us区:
+- **crunchyroll announce home entertainment release schedule march may 2025**
+  - [Article Link](https://www.cosmocover.com/newsroom/crunchyroll-announce-home-entertainment-release-schedule-march-may-2025/)
+  - [Drive Link](https://drive.google.com/drive/folders/1mPRUt58KKX95JrvVrkWKs3E7C2DIublE?usp=drive_link)
+- **light up the arq grid disney tron catalyst races towards pc and consoles this summer**
+  - [Article Link](https://www.cosmocover.com/newsroom/light-up-the-arq-grid-disney-tron-catalyst-races-towards-pc-and-consoles-this-summer/)
+#### de区:
+- **toho animations my hero academia vigilantes hat am 7 april premiere**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/toho-animations-my-hero-academia-vigilantes-hat-am-7-april-premiere/)
+  - [Drive Link](https://drive.google.com/drive/folders/18QNjUQHHEcNBrjk5UjoZd8IMVYC8UXvv?usp=drive_link)
+- **crunchyroll auf der leipziger buchmesse 2025**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/crunchyroll-auf-der-leipziger-buchmesse-2025/)
+  - [Drive Link](https://drive.google.com/drive/folders/1WCWxgui5q8YhTqLvnVfvUHGJeWNPiKRi?usp=drive_link)
+- **crunchyroll kuendigt nordamerikanische und internationale kinostarttermine an fuer demon slayer kimetsu no yaiba infinity castle**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/crunchyroll-kuendigt-nordamerikanische-und-internationale-kinostarttermine-an-fuer-demon-slayer-kimetsu-no-yaiba-infinity-castle/)
+  - [Drive Link](https://drive.google.com/file/d/1pkiVhm3u7Acb9Dq-N4ZWkx-RmcnSMIcC/view?usp=drive_link)
+- **crunchyroll kuendigt veroeffentlichungsplan fuer home entertainment an maerz mai 2025**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/crunchyroll-kuendigt-veroeffentlichungsplan-fuer-home-entertainment-an-maerz-mai-2025/)
+  - [Drive Link](https://drive.google.com/drive/folders/1mPRUt58KKX95JrvVrkWKs3E7C2DIublE?usp=drive_link)
+- **bringe das arq raster zum leuchten disney tron catalyst rast diesen sommer auf pc und konsolen zu**
+  - [Article Link](https://www.cosmocover.com/de/newsroom/bringe-das-arq-raster-zum-leuchten-disney-tron-catalyst-rast-diesen-sommer-auf-pc-und-konsolen-zu/)
+
 - **toho animations my hero academia vigilantes hat am 7 april premiere**
   - [Article Link](https://www.cosmocover.com/de/newsroom/toho-animations-my-hero-academia-vigilantes-hat-am-7-april-premiere/)
   - [Drive Link](https://drive.google.com/drive/folders/18QNjUQHHEcNBrjk5UjoZd8IMVYC8UXvv?usp=drive_link)
